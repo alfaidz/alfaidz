@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<html>
+<title>Al-Faidz's Website</title>
+ <body background="cloudbg.gif">
+<body text="black">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (LOGO. Full height) */
+.bgimg-1 {
+    background-image: url('abm.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Pictures) */
+.bgimg-2 {
+    background-image: url("parallax2.jpg");
+    min-height: 600px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url(".png");
+    min-height: 600px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+</style>
+<body>
+ 
+   
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#pictures" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-photo"></i> PICTURES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#search" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> SEARCH</a>
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">BOJOKOY<span class="w3-hide-small">^_^</span> WEBSITE</span>
+  </div>
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"></h3>
+  <p class="w3-center"><em>GOOD DAY! </em></p>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <h5><p><b><i class="fa fa-user w3-margin-right"></i>I am Al-faidz D. Silongan</b></p><br></h5>
+      <img src="1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="CUTE PICTURE^_^" width="700" height="500">
+      <img src="2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="CUTE PICTURE^_^" width="700" height="500">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+    <p></p>
+    <p></p>
+      <h5><p><b>Welcome to my website. I am Al-faidz Dimanalao Silongan. I am 17 years old,studying at Notre Dame RM College of Cotabato as a grade 11 student, taking an academic strand which is the HUMMS Strand.I believe that "Failure is just a failure" So now i will share everything about me this will be Interesting!^_^ kidding!! </b></p></h5>
+    <h4><ul>       
+      <li>Name:Al-faidz Dimanalao Silongan
+      <li>Age:17 years old</li>
+      <li>Birthdate: January 19,2001
+      <li>Address: San Pablo Village blk7 lot 8 phase 3 RH 11.</li>
+      <li>Height:5 7<li>
+      <li>Weight:60 kls</li>
+      <li>Nationality: Filipino</li>
+      <li>Blood Type: A</li>
+      <li>Hometown: Sultan kudarat</li>
+      <li>Color: Pink, Grey</li>
+      <li>Food: Shawarma</li>
+      <li>6 siblings including me
+      4 girls,2 boys</li>
+     </ul></h4>
+
+<h2><p>LIKES</p></h2>
+<h4><ul>
+<li>I like cats</li>
+<li>I like music</li>
+<li>I like travelling</li>
+<li>I like to eat</li> 
+<li>I like to sleep</li>
+<li>I like quiet place</li>
+<li>I like Mathematics</li>
+</ul>
+</h4>
+<h2><p>MORE</p></h2>
+<h4><p>I have a helminthophobia (phobia of worms). Among my siblings
+I'm more comfortable to my sister than to my other siblings. :) I love my Mom more than my Father, because my Father is 
+so strict.</p></h4>
+
+  </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-music"></i>Singing</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-cutlery"></i>Basketball</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-heart"></i>Loving</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
+  </div>
+</div>
+
+<!-- Second Parallax Image with PICTURES Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxxlarge w3-text-black w3-wide">Pictures</span>
+  </div>
+</div>
+
+<!-- Container Pictures Section) -->
+<center><div class="w3-content w3-container w3-padding-64" id="PICTURES"></center>
+  <h1 class="w3-center">Alfaidz</h1>
+  <p class="w3-center"><em>Here are some pictures of mine.<br> </em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="YIEEEEEEE">    </div>
+
+    <div class="w3-col m3">
+      <img src="4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="WIEEEEEEE">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="YEEEEEEEEY">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="9.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+     </div>
+
+     <div class="w3-col m3"> 
+     <img src="10.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+     <div class="w3-col m3"> 
+     <img src="11.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+    
+
+    <div class="w3-col m3">
+      <img src="12.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+
+    <div class="w3-col m3"> 
+     <img src="13.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3"> 
+     <img src="14.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+
+    <div class="w3-col m3"> 
+     <img src="15.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-black" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with PICTURES Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-black w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">HOW TO CONTACT ME?</h3>
+  <p class="w3-center"><em>THIS IS ME! Al-faidz</em></p>
+
+  
+  
+    <title>Contacts</title>
+
+  
+   <center>
+   <font face="Impact" size="12" color="red">Contacts</font>
+   </center>
+       <div class="w3-col m8 w3-panel">
+      <center>
+<center><br><img src="fb.png" width="100%"><br><font face="Courier new" size="80" color="white"> Al-faidz Dimanalao Silongan</font></center>
+<br><img src="pnn.png" width="100%"><br><font face="Courier new" size="100" color="white">+6399366214223</font>
+<br><img src="twt.jpg" width="100%"><br><font face="Courier new" size="100" color="white">@uno.</font>
+<br><img src="gmail.png" width="100%"><br><font face="Courier new" size="100" color="white">alfaidz19@gmail.com</font>
+      <div class="w3-large w3-margin-bottom">
+     </center>
+ 
+<center>      
+<p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -100px 50px -100px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </center>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+
+
+
+ 
+ 
+
+
+
+</body>
+</html>
+
